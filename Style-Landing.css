@@ -1,0 +1,76 @@
+/* Landing Page (heading-background img/overlay) */
+.pageLanding {
+  background: url('img/1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  height: 855px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-overlay {
+  background: rgba(0, 0, 0, 0);
+  height: 805px;
+  margin-top: 0 auto;
+  padding-top: 0;
+}
+
+/* Landing page (header text-group) */
+
+.pageHeader {
+  position: relative;
+  padding-top: 4%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+/* Landing Page (heading text-top) */
+.pageHeader h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 700;
+  font-size: 75pt;
+  color: silver;
+  padding: 10px;
+  padding-bottom: 1px;
+  text-shadow: 0px 4px 8px red;
+  position: relative;
+  top: 40px;
+}
+
+/* Landing Page (heading text-middle) */
+.pageHeader h5 {
+  font-family: "Times New Roman";
+  font-size: 21pt;
+  color: red;
+  text-shadow: 2px 1px 2px black;
+}
+
+/* Landing Page (heading divider) */
+#text-divider {
+  border: double;
+  border-radius: 20px;
+  border-width: 4px;
+  border-color: grey;
+  width: 800px;
+}
+
+/* Landing Page (Slider) */
+.slider {
+    position: relative;
+	bottom: 230px;
+    width: 80%;
+	margin: 0 auto;
+}
+.carousel-inner>.item>p, .carousel-inner>.item>a>p {
+display: block;
+height: 120px;
+max-width: 100%;
+line-height: 1;
+margin: 0 auto;
+width: 80%;
+color: white;
+}
+
+.slider span {
+	position: relative;
+	bottom: 60px;
+}
