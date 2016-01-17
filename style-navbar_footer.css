@@ -1,0 +1,42 @@
+/*Navigation Bar*/
+.navbar {
+	background-color: black;
+	border-style: solid;
+	border-color: grey;
+	text-align: center;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+/* Naviagation Bar (text) */
+.select .nav-pills li a:hover {
+	color: red;
+}
+.select .nav-pills li a {
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-size: 16pt;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+	text-shadow: 1px 2px 4px grey;
+}
+
+/*Footer*/
+.pageFooter {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+    background: black;
+	text-align: center;
+}
+
+/*Footer (text)*/
+.pageFooter p {
+	color: white;
+	font-size: 10pt;
+	padding-top: 3px;
+}
+
